@@ -1,0 +1,59 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    color: rgb(0, 0, 0);
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 300;
+}
+
+.heading {
+    font-weight: 900;
+}
+
+.header_container {
+    padding-top: 20px;
+}
+
+.header-img {
+    width: 100%;
+    height: 400px;
+}
+
+.heading-margin {
+    margin-top: 80px;
+}
+
+@media (max-width:1000px) {
+    .header_container {
+        padding-top: 20px;
+    }
+    .accordion-container {
+        margin-top: 0px;
+        padding: 20px;
+    }
+}
+
+.about-container {
+    margin-top: 70px;
+}
+
+.accordion-container {
+    margin-top: 60px;
+    padding: 20px;
+}
+
+.car-img {
+    height: 450px;
+}
+
+.team-container {
+    margin-top: 100px;
+}
+
+.ul-style {
+    list-style: none;
+}
